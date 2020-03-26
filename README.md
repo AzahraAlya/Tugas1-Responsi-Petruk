@@ -22,3 +22,12 @@ cout<<endl;
 
 int a = 0; //banyaknya elemen data
  
+int i; //untuk iterasi for
+float sum = 0, max = 0, min = 0; 
+
+//minta user input banyaknya data
+cout << "Banyaknya bilangan yang akan diinput :";
+cin >> a;//*
+
+//bikin array dengan panjang a
+float data[a];
