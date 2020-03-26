@@ -13,11 +13,11 @@ void RataRata(float *sum , int *a){
 
 int main (){
 
-cout<<" ============================================== "<<endl;
+cout<<" ============================================ "<<endl;
 
 cout<<"  Program Menghitung Rata-Rata Edisi Lengkap "<<endl;
 
-cout<<" ============================================== "<<endl;
+cout<<" ============================================= "<<endl;
 cout<<endl;
 
 int a = 0; //banyaknya elemen data
