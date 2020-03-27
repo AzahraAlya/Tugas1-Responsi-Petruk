@@ -1,5 +1,6 @@
-# Tugas1-Responsi-Petruk
-Pemrograman Terstruktur
+//# Tugas1-Responsi-Petruk
+//Pemrograman Terstruktur
+//npm : 1917051016, 1917051017, 1917051031
 
 #include <iostream>
 using namespace std;
@@ -26,7 +27,7 @@ float sum = 0, max = 0, min = 0;
 
 //minta user input banyaknya data
 cout << "Banyaknya bilangan yang akan diinput :";
-cin >> a;//*
+cin >> a;
 
 //bikin array dengan panjang a
 float data[a];
