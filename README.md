@@ -21,7 +21,6 @@ cout<<" ============================================= "<<endl;
 cout<<endl;
 
 int a = 0; //banyaknya elemen data
- 
 int i; //untuk iterasi for
 float sum = 0, max = 0, min = 0; 
 
@@ -41,3 +40,12 @@ for(int i=0; i<a; i++) {
 sum = 0;
 float *ptr;
 ptr = data; 
+
+cout<<"\n data yang anda masukkan adalah ";
+max = min = *ptr;
+for (int i=0; i<a ;i++) {
+	cout<< *(ptr + i)<<","; //looping untuk menampilkan lagi bilangan yang di input
+	sum = sum + *(ptr + i); //untuk menghitung jumlah dari data yang diinput
+	if (max < *(ptr + i)){
+		max = *(ptr + i); //menentukan angka terbesar
+	}
