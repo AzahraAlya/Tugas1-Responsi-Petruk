@@ -31,3 +31,13 @@ cin >> a;//*
 
 //bikin array dengan panjang a
 float data[a];
+//minta user input untuk tiap-tiap element
+for(int i=0; i<a; i++) {
+    cout << "Input bilangan ke ";
+    cout << i+1 << " : ";
+    cin >> data[i];
+}
+
+sum = 0;
+float *ptr;
+ptr = data; 
