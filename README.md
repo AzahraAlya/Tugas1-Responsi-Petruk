@@ -1,6 +1,6 @@
 //# Tugas1-Responsi-Petruk
 //Pemrograman Terstruktur
-//npm : 1917051016, 1917051017, 1917051031
+//NPM : 1917051016, 1917051017, 1917051031
 
 #include <iostream>
 using namespace std;
