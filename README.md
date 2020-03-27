@@ -49,3 +49,14 @@ for (int i=0; i<a ;i++) {
 	if (max < *(ptr + i)){
 		max = *(ptr + i); //menentukan angka terbesar
 	}
+       if (min > *(ptr + i)) {
+      min = *(ptr + i); // menentukan angka terkecil
+      
+    }
+}
+RataRata(&sum , &a);
+cout << "\n Jumlah data : " << sum;
+cout << "\n angka terkecil :" << min;
+cout << "\n angka terbesar : " << max;
+return 0;
+}
